@@ -342,7 +342,9 @@ print ("La raíz cúbica del menor número es: " +str(r))
 
 
 9. Consultar qué es y cómo funciona *pip* en python.
-
+Pip en python es un sistema de gestión de paquetes manejado para instalar y administrar paquetes de software escritos en Python y descargarlos a nuestra computadora con el propósito de integrarlos a nuestros desarrollos realizado en python. Muchos paquetes pueden ser encontrados en el Python Package Index (PyPI). Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores incluyen pip (pip3 para Python3) por defecto; lo cual no es necesario instalarlo en nuestra pc ya que al instalar python en la version 3.4 o superior en automático se instala el gestor de paquetes.
+bibliografia
+https://www.buscaminegocio.com/cursos-de-python/pip-en-python.html
 10. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
 
 
