@@ -56,16 +56,75 @@ if __name__ == "__main__":
   altur_arectangulo = float(input("Ingrese altura del rectangulo en cm: "))
   area,perimetro = area_perimetro_de_la_figura(radio_circulo,base_rectangulo,altur_arectangulo )
   print("El area de la figura es " + str(area))
-  print("el volumen de la figura es " +str(perimetro))
+  print("el perimetro de la figura es " +str(perimetro))
 ```
 
-[![Captura-de-pantalla-2023-03-22-212157.png](https://i.postimg.cc/yNBFbtM9/Captura-de-pantalla-2023-03-22-212157.png)](https://postimg.cc/LJCYqC66)
+[![Captura-de-pantalla-2023-03-23-071350.png](https://i.postimg.cc/ydc2wfYR/Captura-de-pantalla-2023-03-23-071350.png)](https://postimg.cc/MMZsBmBZ)
 
 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
+``` python
+# Punto 3
+
+def cantidad_de_carne_de_aves(gallinas: int, gallos: int, pollitos:int)-> int:
+    aves=(gallinas+gallos+pollitos)#agrege la cantidad de aves auqneu no es necesario fue por gusto.
+    cantidad_de_carne=(6*gallinas + 7* gallos+ 1* pollitos)#Conocemos que las gallinas pesan 6kg los gallos 7kg y los pollitos 1kg.
+    return(aves,cantidad_de_carne)
+#Planteamos la ecuaciones para hallar la cantidad de carne.
+
+if __name__ == "__main__":
+  gallinas = int(input("Ingrese cantidad de gallinas: "))
+  gallos = int(input("Ingrese cantidad de gallos: "))
+  pollitos = int(input("Ingrese cantidad de pollitos: "))
+  aves,cantidad_de_carne = cantidad_de_carne_de_aves(gallinas, gallos, pollitos )
+  print("la cantidad de aves es:  " + str(aves))
+  print("La cantidad de carne en kg es: " +str(cantidad_de_carne))
+```
+
+[![Captura-de-pantalla-2023-03-23-072859.png](https://i.postimg.cc/hjWH4GgJ/Captura-de-pantalla-2023-03-23-072859.png)](https://postimg.cc/zL7d08y5)
 
 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a  3300 cada una y H huevos a  350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
+``` python
+# Punto 4
+
+def vueltas(pan: int, leche: int, huevos:int, billete:float)-> float:
+    vueltas_de_dinero=( billete- (pan*300 + leche*3300  + huevos*350 ))#Conocemos los valores porque el problema nos da los datos.
+    return(vueltas_de_dinero)
+#Planteamos la ecuacione para hallar la vuelta de dinero.
+
+if __name__ == "__main__":
+  pan = int(input("Ingrese cantidad de panes: "))
+  leche = int(input("Ingrese cantidad bolsas de leche: "))
+  huevos = int(input("Ingrese cantidad de huevos: "))
+  billete=float(input("Ingrese cantidad del billete: "))
+  vueltas_de_dinero = vueltas(pan,leche,huevos,billete)
+  print("las vueltas o lo que se queda debiendo es:  " + str(vueltas_de_dinero))
+```
+
+[![Captura-de-pantalla-2023-03-23-073808.png](https://i.postimg.cc/qBPqysLS/Captura-de-pantalla-2023-03-23-073808.png)](https://postimg.cc/c6cdN8PB)
+
 
 5. Haga un programa que utilice una función para calcular el valor de un préstamo `C` usando interés compuesto del `i` por `n` meses.
+``` python
+# Punto 5
+
+def valor_prestamo(dinero: float, tasa_de_interes: float, meses:int )-> float:
+    intereses= tasa_de_interes/100 # lo dividimos entre 100 para quitar el porcentaje
+    interes_compuesto=(1+intereses/12)**meses 
+    calculo_valor_del_prestamo=( dinero * interes_compuesto)
+    return(calculo_valor_del_prestamo)
+#Planteamos la ecuaciones para hallar el calculo del valor del prestamo.
+
+if __name__ == "__main__":
+  dinero = float(input("Ingrese el valor del prestamo: "))
+  tasa_de_interes = float(input("Ingrese la tasa de interes(sin %): "))
+  meses = int(input("Ingrese cantidad de meses para pagar: "))
+  calculo_valor_de_prestamo = valor_prestamo(dinero,tasa_de_interes,meses)
+  print("el valor del prestamo al final es:  " + str(calculo_valor_de_prestamo))
+```
+
+[![Captura-de-pantalla-2023-03-23-083507.png](https://i.postimg.cc/SN49ng9T/Captura-de-pantalla-2023-03-23-083507.png)](https://postimg.cc/DmC0DdBL)
+
+
 
 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
 
