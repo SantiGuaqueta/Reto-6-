@@ -373,4 +373,9 @@ Fernandez, D. P. (2022, 7 noviembre). ¿Cómo instalar PIP para Python en Window
 
 10. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
 
+En Python se emplea una herramienta llamada pip para instalar módulos y paquetes de terceros (es decir, aquellos que no se incluyen en la librería estándar). Se debe ejecutar en la línea de comandos lo siguiente:
+
+``` psudocode
+pip install <nombre-paquete>
+```
 
