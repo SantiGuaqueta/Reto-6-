@@ -342,9 +342,35 @@ print ("La raíz cúbica del menor número es: " +str(r))
 
 
 9. Consultar qué es y cómo funciona *pip* en python.
+
 Pip en python es un sistema de gestión de paquetes manejado para instalar y administrar paquetes de software escritos en Python y descargarlos a nuestra computadora con el propósito de integrarlos a nuestros desarrollos realizado en python. Muchos paquetes pueden ser encontrados en el Python Package Index (PyPI). Python 2.7.9 y posteriores (en la serie Python2), Python 3.4 y posteriores incluyen pip (pip3 para Python3) por defecto; lo cual no es necesario instalarlo en nuestra pc ya que al instalar python en la version 3.4 o superior en automático se instala el gestor de paquetes.
+PIP es un acrónimo que significa "Paquetes de instalación PIP" o "Programa de instalación preferida". Es una utilidad de línea de comandos que le permite instalar, reinstalar o desinstalar paquetes PyPI con un comando simple y directo: "pip".
+#### Cómo instalar PIP en Windows
+Las siguientes instrucciones deberían funcionar en Windows 7, Windows 8.1 y Windows 10:
+
+Descargue el script del instalador get-pip.py. Si estás en Python 3.2, necesitarás esta versión de get-pip.py. En caso de tener Python 3.3 o 3.4 usar estas versiones de PiP correspondientemente Python 3.3 get-pip.py o Python 3.4 get-pip.py. De cualquier manera, haga clic derecho en el enlace y seleccione Guardar como y guárdelo en cualquier carpeta del pc, como su carpeta de Descargas.
+
+Abra el símbolo del sistema y navegue hasta el archivo get-pip.py.
+
+Ejecute el siguiente comando: python get-pip.py
+
+📝 Nota: Ejecutar la terminal (CMD o Powershell) con privilegios de administrador
 bibliografia
-https://www.buscaminegocio.com/cursos-de-python/pip-en-python.html
+
+#### Cómo actualizar PIP para Python
+Si tuvieramos una versión anterior o muy viejita instalada de pip en nuestra computadora y quisieramos tener la última versión con la finalidad de descargar también las últimas versiones de librerias que se encuentran en los repositorios de python se puede hacer si ningun problema.
+
+PIP no es una aplicación que se actualice muy a menudo. Sin embargo, no por ello es menos importante hacer uso de las nuevas versiones cuando están disponibles, ya que además de corregir errores y problemas de compatibilidad, también pueden corregir posibles agujeros de seguridad. Actualizar Pip en python es muy sencillo:
+Para actualizar PIP en Windows utiliza el siguiente comando:
+
+python -m pip install -U pip
+
+##### Bibliografia
+
+PIP en Python Administrador de Paquetes PIP en Python. (s. f.). Grupo Codesi trainig & certification. Recuperado 23 de marzo de 2023, de https://www.buscaminegocio.com/cursos-de-python/pip-en-python.html
+
+Fernandez, D. P. (2022, 7 noviembre). ¿Cómo instalar PIP para Python en Windows, Mac y Linux? 【PASO A PASO】. Tecnonucleous. https://tecnonucleous.com/2018/01/28/como-instalar-pip-para-python-en-windows-mac-y-linux/
+
 10. Hacer un listado de módulos populares para python que se puedan instalar com *pip* y consultar cómo instalarlos.
 
 
