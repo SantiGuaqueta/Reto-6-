@@ -378,4 +378,21 @@ En Python se emplea una herramienta llamada pip para instalar módulos y paquete
 ``` psudocode
 pip install <nombre-paquete>
 ```
-
+#### Matplotlib
+Con Matplotlib se generan una gran variedad de gráficos de calidad para publicar online o en papel y sin emplear muchas líneas de código. Diagramas de barras, histogramas, series temporales, espectros de potencia… son solo algunos ejemplos de las posibilidades de esta librería en Python.
+#### TensorFlow
+Por su parte, TensorFlow fue desarrollada por el propio Google y es clave en el cálculo numérico. Sus diagramas de flujo de datos son muy utilizados en Deep Learning. Su estructura permite crear una red neuronal, que sirve para proporcionar un nuevo enfoque en conceptualización de las matemáticas.
+#### PyTorch
+En este caso, fue Facebook el encargado de desarrollar esta librería de Python. También se emplea en cálculo numérico y sus tarjetas gráficas son fundamentales para la ejecución rápida del código.
+#### Keras
+Su cometido es el desarrollo de modelos de aprendizaje profundo, de forma que se crean prototipos de redes neuronales de una forma rápida y eficaz. Asimismo, esta librería o biblioteca de Python es fácil de emplear.
+#### Scikit-learn
+Este ejemplo de librerías de Python está pensado para la construcción de modelos de aprendizaje automático o machine learning, así como para el análisis de datos. Acciones de regresión, clasificación y agrupamiento de los datos son posibles. Su interfaz es sencilla, puesto que solo se requiere de una línea de código.
+#### Pandas
+Pandas es muy usada en Data Science. Los datos son fáciles de trabajar, ya que sus estructuras están conformadas por una serie de datos, así como el Data Frame para dos dimensiones. Estadística, economía, ingeniería, ciencias sociales… esta librería de Python se utiliza en diversos sectores.
+#### Seaborn
+Mientras que la manipulación de los datos es la base de Pandas, Seaborn apuesta por la visualización de datos estadísticos para entender el data. De esta manera, su interfaz es de alto nivel, además de interactiva.
+#### Bokeh
+Bokeh también es una de las librerías de Python que destaca por su interactividad. Sus gráficos son muy versátiles y en tiempo real, además.
+#### NumPy
+Por su parte, NumPy permite generar una estructura de datos universal, lo que se traduce por un mejor análisis de datos, ya que se da un intercambio de datos entre diferentes algoritmos. Sus vectores son multidimensionales y las matrices disponen de una gran capacidad.
