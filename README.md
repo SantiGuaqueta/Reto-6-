@@ -396,3 +396,9 @@ Mientras que la manipulación de los datos es la base de Pandas, Seaborn apuesta
 Bokeh también es una de las librerías de Python que destaca por su interactividad. Sus gráficos son muy versátiles y en tiempo real, además.
 #### NumPy
 Por su parte, NumPy permite generar una estructura de datos universal, lo que se traduce por un mejor análisis de datos, ya que se da un intercambio de datos entre diferentes algoritmos. Sus vectores son multidimensionales y las matrices disponen de una gran capacidad.
+
+##### Bibliografia
+
+Librerías de Python, ¿qué son y cuáles son las mejores? (s. f.). Immune Technology Institute. https://immune.institute/blog/librerias-python-que-son/
+
+Cómo instalar módulos y paquetes. (s. f.). Recursos Python. https://micro.recursospython.com/recursos/como-instalar-modulos-y-paquetes.html
